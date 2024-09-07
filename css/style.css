@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 *,
 *::before,
 *::after {
@@ -136,13 +137,14 @@ ul {
 }
 
 :root {
-  --ff: "Rubik", sans-serif;
+  --ff: "Montserrat", sans-serif;
   --transition: .2s all ease-in-out;
   --c-primary: #ED9902;
 }
 
 body {
   font-family: var(--ff);
+  font-size: 1em;
 }
 
 *::-webkit-scrollbar {
@@ -154,4 +156,9 @@ body {
 * ::-webkit-scrollbar-thumb {
   border-radius: 5px;
   background-color: #d1d1d1;
+}
+
+.welcome__title {
+  font-weight: 800;
+  font-size: 4.06em;
 }/*# sourceMappingURL=style.css.map */
